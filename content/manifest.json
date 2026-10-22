@@ -1,0 +1,628 @@
+{
+ "version": "2.8.0",
+ "options": {
+  "blogname": "Pastel Life",
+  "blogdescription": "Crayons pastel doux et pigmentés"
+ },
+ "gammes": [
+  {
+   "slug": "coffrets",
+   "name": "Coffrets de crayons pastel",
+   "description": "Découvrez nos coffrets de crayons pastel de 6, 12, 24 et 48 couleurs. Plus le coffret est grand, plus chaque teinte compte d'intensités, pour des dégradés riches et naturels."
+  },
+  {
+   "slug": "accessoires",
+   "name": "Recharges et accessoires",
+   "description": "Tout pour dessiner au pastel : crayons à l'unité, estompes, gomme mie de pain, carnet à grain et taille-crayon à lame fine."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "accueil",
+   "title": "Accueil",
+   "seo_title": "Crayons pastel doux et pigmentés | Pastel Life",
+   "schema": "WebPage",
+   "order": 0,
+   "seo_desc": "Pastel Life : crayons pastel secs à la mine veloutée, 6 teintes douces, coffrets de 6 à 48 crayons en cèdre FSC. Livraison offerte dès 35 €.",
+   "elementor": "elementor/accueil.json",
+   "front": true,
+   "faq": null
+  },
+  {
+   "slug": "la-collection",
+   "title": "La collection",
+   "seo_title": "Collection : 6 teintes de crayons pastel | Pastel Life",
+   "schema": "CollectionPage",
+   "order": 1,
+   "seo_desc": "Rose, saumon, pêche, pistache, menthe, lavande : découvrez les 6 teintes de crayons pastel Pastel Life, leurs accords et leurs intensités.",
+   "elementor": "elementor/la-collection.json",
+   "front": false,
+   "faq": null
+  },
+  {
+   "slug": "boutique",
+   "title": "Boutique",
+   "seo_title": "Boutique : coffrets de crayons pastel dès 12,90 €",
+   "schema": "CollectionPage",
+   "order": 2,
+   "seo_desc": "Coffrets de 6, 12, 24 ou 48 crayons pastel secs, estompes, carnet à grain, taille-crayon. Livraison offerte dès 35 €, retours sous 30 jours.",
+   "elementor": "elementor/boutique.json",
+   "front": false,
+   "faq": null
+  },
+  {
+   "slug": "savoir-faire",
+   "title": "Savoir-faire",
+   "seo_title": "Savoir-faire : crayons pastel en cèdre FSC | Pastel Life",
+   "schema": "WebPage",
+   "order": 3,
+   "seo_desc": "Mine pastel sèche et veloutée, cèdre certifié FSC, teintes calibrées : découvrez comment sont fabriqués les crayons pastel Pastel Life.",
+   "elementor": "elementor/savoir-faire.json",
+   "front": false,
+   "faq": null
+  },
+  {
+   "slug": "a-propos",
+   "title": "Notre histoire",
+   "seo_title": "Notre histoire : crayons pastel lyonnais | Pastel Life",
+   "schema": "AboutPage",
+   "order": 4,
+   "seo_desc": "Pastel Life est née dans un atelier d'illustration lyonnais, avec une envie : rendre le crayon pastel accessible, doux et joyeux.",
+   "elementor": "elementor/a-propos.json",
+   "front": false,
+   "faq": null
+  },
+  {
+   "slug": "faq",
+   "title": "Questions fréquentes",
+   "seo_title": "FAQ crayons pastel : sec ou gras, papier, fixatif",
+   "schema": "WebPage",
+   "order": 5,
+   "seo_desc": "Pastel sec ou gras, papier, fixatif, choix du coffret, livraison et retours : les réponses à vos questions sur les crayons pastel.",
+   "elementor": "elementor/faq.json",
+   "front": false,
+   "faq": [
+    {
+     "q": "Quelle est la différence entre un crayon pastel et un crayon de couleur ?",
+     "a": "<p>Un crayon de couleur classique contient de la cire ou de l'huile : le trait est fin et net. Un <strong>crayon pastel</strong> est fait de pigments et d'un peu de liant, dans une mine plus tendre : le trait est velouté, très pigmenté et se fond facilement. Résultat : des aplats doux, des dégradés faciles et un rendu proche du pastel en bâton, avec la précision d'un crayon.</p>"
+    },
+    {
+     "q": "Vos crayons pastel sont-ils secs ou gras ?",
+     "a": "<p>Ce sont des <strong>crayons pastel secs</strong> à la mine tendre, sans huile ni cire. Ils se mélangent au doigt ou à l'estompe et se travaillent par couches successives. Si vous hésitez entre les deux familles, notre article <a href=\"{{home}}pastel-sec-ou-pastel-gras/\">pastel sec ou pastel gras</a> détaille les différences.</p>"
+    },
+    {
+     "q": "Quel coffret choisir pour débuter ?",
+     "a": "<p>Le <a href=\"{{home}}boutique/coffret-decouverte-6-crayons-pastel/\">coffret Découverte de 6 crayons</a> suffit pour comprendre le pastel ; le <a href=\"{{home}}boutique/coffret-douceur-12-crayons-pastel/\">coffret Douceur de 12</a> ajoute des nuances plus claires et plus foncées. Notre guide <a href=\"{{home}}quel-coffret-de-crayons-pastel-choisir/\">quel coffret choisir</a> compare les formats de 6 à 48 crayons.</p>"
+    },
+    {
+     "q": "Faut-il utiliser un fixatif ?",
+     "a": "<p>Le pastel sec reste fragile : un léger voile de fixatif en fin de dessin protège le travail des frottements. Vaporisez à 30 cm, en couches fines, dans un endroit aéré. Le fixatif peut ternir légèrement les couleurs, faites un essai sur une chute de papier. Plus de détails dans notre guide du <a href=\"{{home}}materiel-dessin-pastel-papier-fixatif-estompes/\">matériel pour dessiner au pastel</a>.</p>"
+    },
+    {
+     "q": "Sur quel papier dessiner avec des crayons pastel ?",
+     "a": "<p>Choisissez un papier <strong>à grain</strong> d'au moins 160 g/m², qui accroche les pigments. Notre <a href=\"{{home}}boutique/carnet-dessin-pastel-a5/\">carnet A5 à grain</a> a été pensé pour cela. Un papier lisse retient peu de pigment et rend les superpositions difficiles.</p>"
+    },
+    {
+     "q": "Comment mélanger et estomper les couleurs ?",
+     "a": "<p>Posez deux teintes côte à côte, puis estompez à l'<strong>estompe</strong>, au doigt ou au coton-tige du plus clair vers le plus foncé. Pour un dégradé réussi, suivez notre tutoriel <a href=\"{{home}}reussir-un-degrade-aux-crayons-pastel/\">réussir un dégradé aux crayons pastel</a>.</p>"
+    },
+    {
+     "q": "Les crayons se cassent-ils facilement ?",
+     "a": "<p>La mine est tendre, donc un peu plus sensible aux chocs qu'un crayon de couleur ordinaire. Rangez-les dans leur coffret, taillez-les avec un <a href=\"{{home}}boutique/taille-crayon-laiton/\">taille-crayon à lame fine</a> et évitez les chutes de la table : ils dureront longtemps.</p>"
+    },
+    {
+     "q": "Les couleurs résistent-elles à la lumière ?",
+     "a": "<p>Les pigments sont choisis pour leur bonne tenue. Comme pour tout dessin au pastel, évitez l'exposition directe au soleil, protégez l'œuvre sous un cadre avec passe-partout et, si besoin, un fixatif.</p>"
+    },
+    {
+     "q": "Quels sont les délais et les frais de livraison ?",
+     "a": "<p>La livraison est <strong>offerte dès 35 € d'achat</strong> en France métropolitaine. Comptez 2 à 4 jours ouvrés après la préparation de la commande, qui part sous 48 h.</p>"
+    },
+    {
+     "q": "Puis-je retourner ma commande ?",
+     "a": "<p>Oui : vous avez <strong>30 jours</strong> pour changer d'avis, sur les produits non utilisés dans leur emballage d'origine. Écrivez-nous via la <a href=\"{{home}}contact/\">page contact</a> et on s'occupe du reste. Détails dans nos <a href=\"{{home}}cgv/\">conditions de vente</a>.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "title": "Contact",
+   "seo_title": "Contact | Pastel Life, atelier de crayons pastel",
+   "schema": "ContactPage",
+   "order": 6,
+   "seo_desc": "Une question sur un coffret de crayons pastel ou une commande ? Écrivez à l'atelier Pastel Life : réponse sous 48 h ouvrées.",
+   "elementor": "elementor/contact.json",
+   "front": false,
+   "faq": null
+  },
+  {
+   "slug": "journal",
+   "title": "Journal",
+   "order": 7,
+   "posts_page": true,
+   "schema": "CollectionPage",
+   "excerpt": "Techniques, matériel et conseils d'achat : le journal Pastel Life vous aide à dessiner aux crayons pastel, pas à pas.",
+   "seo_title": "Journal : conseils pour dessiner aux crayons pastel",
+   "seo_desc": "Techniques, matériel, conseils d'achat : le journal Pastel Life vous aide à dessiner aux crayons pastel, pas à pas."
+  },
+  {
+   "slug": "mentions-legales",
+   "title": "Mentions légales",
+   "order": 8,
+   "content": "<p><strong>Ce site est un site fictif, créé à des fins de démonstration.</strong> Les informations ci-dessous sont des exemples et ne correspondent à aucune société réelle.</p>\n<h2>Éditeur du site</h2>\n<p>Pastel Life (marque fictive)<br>Atelier : Lyon, France (visites sur rendez-vous)<br>Contact : <a href=\"mailto:bonjour@pastel-life.example\">bonjour@pastel-life.example</a></p>\n<h2>Directeur de la publication</h2>\n<p>L'équipe de l'atelier Pastel Life.</p>\n<h2>Hébergement</h2>\n<p>Site hébergé en local à des fins de démonstration.</p>\n<h2>Propriété intellectuelle</h2>\n<p>Les textes, visuels et éléments graphiques de ce site sont la propriété de Pastel Life, sauf mention contraire. Toute reproduction sans autorisation est interdite.</p>\n<h2>Données personnelles</h2>\n<p>Pour savoir comment sont traitées vos données, consultez la <a href=\"{{home}}politique-de-confidentialite/\">politique de confidentialité</a>.</p>",
+   "seo_title": "Mentions légales | Pastel Life",
+   "seo_desc": "Mentions légales du site fictif Pastel Life : éditeur, hébergeur, propriété intellectuelle et contact.",
+   "schema": "WebPage",
+   "privacy": false
+  },
+  {
+   "slug": "cgv",
+   "title": "Conditions générales de vente",
+   "order": 9,
+   "content": "<p><strong>Site fictif :</strong> ces conditions sont données à titre d'exemple.</p>\n<h2>1. Commande</h2>\n<p>La commande se fait par le formulaire de la page <a href=\"{{home}}contact/\">contact</a>. Elle est confirmée par e-mail, avec le détail du récapitulatif et le prix total TTC.</p>\n<h2>2. Prix</h2>\n<p>Les prix sont indiqués en euros, toutes taxes comprises. Pastel Life se réserve le droit de les modifier à tout moment ; le prix applicable est celui indiqué lors de la confirmation de la commande.</p>\n<h2>3. Livraison</h2>\n<p>La livraison est offerte dès 35 € d'achat en France métropolitaine. Les commandes sont préparées sous 48 h et livrées sous 2 à 4 jours ouvrés.</p>\n<h2>4. Droit de rétractation et retours</h2>\n<p>Vous disposez de 30 jours à compter de la réception pour retourner un produit non utilisé, dans son emballage d'origine. Le remboursement intervient sous 14 jours après réception du retour.</p>\n<h2>5. Garanties</h2>\n<p>Les produits bénéficient des garanties légales de conformité et des vices cachés.</p>\n<h2>6. Contact</h2>\n<p>Pour toute question : <a href=\"mailto:bonjour@pastel-life.example\">bonjour@pastel-life.example</a>.</p>",
+   "seo_title": "Conditions générales de vente | Pastel Life",
+   "seo_desc": "Conditions générales de vente du site fictif Pastel Life : commandes, prix, livraison offerte dès 35 €, retours sous 30 jours.",
+   "schema": "WebPage",
+   "privacy": false
+  },
+  {
+   "slug": "politique-de-confidentialite",
+   "title": "Politique de confidentialité",
+   "order": 10,
+   "content": "<p><strong>Site fictif :</strong> cette politique est donnée à titre d'exemple.</p>\n<h2>Données collectées</h2>\n<p>Le seul traitement de données est le formulaire de contact : nom, adresse e-mail, message et produit concerné. Ces données servent uniquement à répondre à votre demande.</p>\n<h2>Durée de conservation</h2>\n<p>Vos messages sont conservés au maximum 12 mois après la dernière réponse, puis supprimés.</p>\n<h2>Vos droits</h2>\n<p>Vous pouvez demander l'accès, la rectification ou la suppression de vos données en écrivant à <a href=\"mailto:bonjour@pastel-life.example\">bonjour@pastel-life.example</a>.</p>\n<h2>Cookies</h2>\n<p>Ce site n'utilise pas de cookie de suivi publicitaire. Aucune bannière de consentement n'est donc nécessaire.</p>",
+   "seo_title": "Politique de confidentialité | Pastel Life",
+   "seo_desc": "Politique de confidentialité du site fictif Pastel Life : données collectées, durée de conservation, vos droits et cookies.",
+   "schema": "WebPage",
+   "privacy": true
+  }
+ ],
+ "products": [
+  {
+   "slug": "coffret-decouverte-6-crayons-pastel",
+   "title": "Coffret Découverte, 6 crayons pastel",
+   "gamme": "coffrets",
+   "image": "produit-coffret-decouverte",
+   "price": 12.9,
+   "sku": "PL-DEC-06",
+   "count": "6",
+   "unit": "crayons",
+   "badge": "Nouveau",
+   "featured": 1,
+   "order": 1,
+   "excerpt": "Les 6 teintes signature de Pastel Life dans un coffret pour découvrir le pastel sec, tout en douceur.",
+   "features": [
+    "6 teintes signature : rose, saumon, pêche, pistache, menthe, lavande",
+    "Mine pastel sèche, tendre et veloutée",
+    "Corps en cèdre certifié FSC",
+    "Le bon format pour débuter"
+   ],
+   "seo_title": "Coffret 6 crayons pastel Découverte | Pastel Life",
+   "seo_desc": "Le coffret Découverte réunit 6 crayons pastel secs aux teintes douces. Mine veloutée, cèdre FSC, livraison offerte dès 35 €. Idéal pour débuter.",
+   "content": "<p>Le <strong>coffret Découverte</strong> rassemble les six teintes signature de la collection : un crayon de chaque couleur pour découvrir ce que le <strong>pastel sec</strong> peut faire sur un papier à grain. C'est le point de départ idéal si vous n'avez jamais dessiné au pastel, ou si vous voulez offrir un premier coffret.</p>\n<h3>Ce que contient le coffret</h3>\n<p>Un crayon Rose Framboise, Saumon Doux, Pêche Sorbet, Pistache, Menthe Glacée et Lavande Brume. Les six couleurs ont été pensées pour se superposer : vous obtenez des dégradés doux dès les premiers essais.</p>\n<h3>Pour qui ?</h3>\n<p>Pour les débutants, les étudiants, les carnetistes et tous ceux qui veulent ajouter une touche de couleur à leurs croquis. Besoin de plus de nuances ? Passez au <a href=\"{{home}}boutique/coffret-douceur-12-crayons-pastel/\">coffret Douceur de 12 crayons</a>. Pas sûr du format ? Lisez notre guide <a href=\"{{home}}quel-coffret-de-crayons-pastel-choisir/\">quel coffret de crayons pastel choisir</a>.</p>"
+  },
+  {
+   "slug": "coffret-douceur-12-crayons-pastel",
+   "title": "Coffret Douceur, 12 crayons pastel",
+   "gamme": "coffrets",
+   "image": "produit-coffret-douceur",
+   "price": 19.9,
+   "sku": "PL-DOU-12",
+   "count": "12",
+   "unit": "crayons",
+   "badge": "",
+   "featured": 0,
+   "order": 2,
+   "excerpt": "Chaque teinte en deux intensités, une claire et une franche, pour des transitions plus riches dès le départ.",
+   "features": [
+    "12 crayons : 6 teintes en 2 intensités",
+    "Dégradés et ombres plus naturels",
+    "Mine pastel sèche, tendre et veloutée",
+    "Boîte en carton recyclé"
+   ],
+   "seo_title": "Coffret 12 crayons pastel Douceur | Pastel Life",
+   "seo_desc": "Coffret de 12 crayons pastel secs : 6 teintes en 2 intensités pour des dégradés naturels. Mine veloutée, cèdre FSC, livraison offerte dès 35 €.",
+   "content": "<p>Le <strong>coffret Douceur</strong> reprend les six teintes de la gamme et ajoute, pour chacune, une version plus claire. Vous disposez ainsi de deux intensités par couleur : de quoi construire des volumes, des ombres et des dégradés sans devoir appuyer sur le crayon.</p>\n<h3>Un coffret pour progresser</h3>\n<p>Avec 12 crayons pastel, vous pouvez travailler un portrait, un paysage ou une nature morte avec des transitions fines. C'est le format que nous conseillons dès que l'on a fini le <a href=\"{{home}}boutique/coffret-decouverte-6-crayons-pastel/\">coffret Découverte</a>.</p>\n<p>Pour apprendre à les utiliser, suivez notre tutoriel <a href=\"{{home}}comment-dessiner-aux-crayons-pastel/\">5 techniques pour dessiner aux crayons pastel</a>.</p>"
+  },
+  {
+   "slug": "boite-atelier-24-crayons-pastel",
+   "title": "Boîte Atelier, 24 crayons pastel",
+   "gamme": "coffrets",
+   "image": "produit-boite-atelier",
+   "price": 34,
+   "sku": "PL-ATE-24",
+   "count": "24",
+   "unit": "crayons",
+   "badge": "Best-seller",
+   "featured": 1,
+   "order": 3,
+   "excerpt": "Chaque teinte en quatre intensités, pour des dégradés sans fin et des ombres qui gardent leur douceur.",
+   "features": [
+    "24 crayons : 6 teintes en 4 intensités",
+    "Dégradés continus sans mélanger plusieurs couleurs",
+    "Mine pastel sèche, tendre et veloutée",
+    "Boîte robuste à compartiments"
+   ],
+   "seo_title": "Boîte 24 crayons pastel Atelier | Pastel Life",
+   "seo_desc": "Boîte Atelier : 24 crayons pastel secs, 6 teintes en 4 intensités pour dégradés et ombres. Mine veloutée, cèdre FSC, livraison offerte.",
+   "content": "<p>La <strong>boîte Atelier</strong> est notre best-seller : 24 crayons pastel, soit chaque teinte déclinée en quatre intensités. C'est le format préféré des illustratrices et illustrateurs qui veulent des dégradés continus sans multiplier les superpositions.</p>\n<h3>Pourquoi quatre intensités ?</h3>\n<p>Un dégradé réussi se construit en passant d'une nuance à la suivante. Avec quatre intensités par couleur, la transition se fait en douceur, presque sans estompage. Notre tutoriel <a href=\"{{home}}reussir-un-degrade-aux-crayons-pastel/\">réussir un dégradé aux crayons pastel</a> montre la méthode pas à pas.</p>\n<h3>Complétez votre matériel</h3>\n<p>Ajoutez le <a href=\"{{home}}boutique/set-estompes-et-gomme/\">set d'estompes et gomme</a> et le <a href=\"{{home}}boutique/carnet-dessin-pastel-a5/\">carnet à grain A5</a> pour un atelier complet.</p>"
+  },
+  {
+   "slug": "edition-studio-48-crayons-pastel",
+   "title": "Édition Studio, 48 crayons pastel en coffret bois",
+   "gamme": "coffrets",
+   "image": "produit-edition-studio",
+   "price": 59,
+   "sku": "PL-STU-48",
+   "count": "48",
+   "unit": "crayons",
+   "badge": "Édition limitée",
+   "featured": 1,
+   "order": 4,
+   "excerpt": "Un coffret en bois avec tiroir : 48 crayons pastel, chaque teinte en huit intensités, pour les artistes exigeants.",
+   "features": [
+    "48 crayons : 6 teintes en 8 intensités",
+    "Coffret en bois avec tiroir, à offrir ou à garder",
+    "Mine pastel sèche, tendre et veloutée",
+    "Série limitée, numérotée"
+   ],
+   "seo_title": "Coffret bois 48 crayons pastel Studio | Pastel Life",
+   "seo_desc": "Édition Studio : coffret en bois de 48 crayons pastel secs, 6 teintes en 8 intensités. Mine veloutée, cèdre FSC. Série limitée, livraison offerte.",
+   "content": "<p>L'<strong>Édition Studio</strong> réunit 48 crayons pastel dans un coffret en bois avec tiroir. Chaque teinte existe en huit intensités, du voile presque transparent au ton le plus profond : l'outil des artistes qui travaillent le détail et les nuances.</p>\n<h3>Un coffret à offrir</h3>\n<p>Son format et sa finition en font un cadeau apprécié des passionnés. Série limitée et numérotée.</p>\n<p>Vous hésitez avec un autre format ? Notre comparatif <a href=\"{{home}}quel-coffret-de-crayons-pastel-choisir/\">6, 12, 24 ou 48 couleurs</a> vous aide à trancher.</p>"
+  },
+  {
+   "slug": "crayon-pastel-a-l-unite",
+   "title": "Crayon pastel à l'unité",
+   "gamme": "accessoires",
+   "image": "produit-crayon-unite",
+   "price": 2.2,
+   "sku": "PL-UNI-01",
+   "count": "1",
+   "unit": "crayon",
+   "badge": "",
+   "featured": 0,
+   "order": 5,
+   "excerpt": "Remplacez un crayon usé ou complétez votre coffret avec la teinte de votre choix.",
+   "features": [
+    "Les 6 teintes disponibles à l'unité",
+    "Même mine pastel sèche que les coffrets",
+    "Cèdre certifié FSC"
+   ],
+   "seo_title": "Crayon pastel à l'unité, 6 teintes | Pastel Life",
+   "seo_desc": "Un crayon pastel sec à l'unité pour compléter ou remplacer une teinte : rose, saumon, pêche, pistache, menthe ou lavande. Dès 2,20 €.",
+   "content": "<p>Le <strong>crayon pastel à l'unité</strong> permet de remplacer une teinte usée ou de compléter un coffret. Précisez la couleur souhaitée dans votre message lors de la commande : Rose Framboise, Saumon Doux, Pêche Sorbet, Pistache, Menthe Glacée ou Lavande Brume.</p>\n<p>Besoin d'inspiration pour choisir ? Découvrez toutes les teintes sur la page <a href=\"{{home}}la-collection/\">la collection</a>.</p>\n<h3>Les 6 teintes disponibles</h3>\n<div class=\"pl-nuancier\"><figure>{{media:crayon-pastel-unite-rose-framboise}}<figcaption><i style=\"background:#F16D82\"></i>Rose Framboise</figcaption></figure><figure>{{media:crayon-pastel-unite-saumon-doux}}<figcaption><i style=\"background:#F5A79E\"></i>Saumon Doux</figcaption></figure><figure>{{media:crayon-pastel-unite-peche-sorbet}}<figcaption><i style=\"background:#FBCE9E\"></i>Pêche Sorbet</figcaption></figure><figure>{{media:crayon-pastel-unite-pistache}}<figcaption><i style=\"background:#C6DFA3\"></i>Pistache</figcaption></figure><figure>{{media:crayon-pastel-unite-menthe-glacee}}<figcaption><i style=\"background:#82DEC0\"></i>Menthe Glacée</figcaption></figure><figure>{{media:crayon-pastel-unite-lavande-brume}}<figcaption><i style=\"background:#A7ACDE\"></i>Lavande Brume</figcaption></figure></div>"
+  },
+  {
+   "slug": "set-estompes-et-gomme",
+   "title": "Set d'estompes et gomme mie de pain",
+   "gamme": "accessoires",
+   "image": "produit-estompes-gomme",
+   "price": 7.9,
+   "sku": "PL-EST-03",
+   "count": "4",
+   "unit": "pièces",
+   "badge": "",
+   "featured": 0,
+   "order": 6,
+   "excerpt": "Trois estompes de tailles différentes et une gomme mie de pain pour fondre, éclaircir et corriger.",
+   "features": [
+    "3 estompes en papier roulé (fin, moyen, large)",
+    "1 gomme mie de pain pour rehausser et corriger",
+    "Indispensable pour les dégradés"
+   ],
+   "seo_title": "Estompes et gomme mie de pain pour pastel | Pastel Life",
+   "seo_desc": "Set de 3 estompes et 1 gomme mie de pain pour fondre, éclaircir et corriger un dessin au crayon pastel. Livraison offerte dès 35 €.",
+   "content": "<p>Ce <strong>set d'estompes et gomme mie de pain</strong> est le complément naturel de vos crayons pastel. Les estompes fondent les couleurs sans laisser de traces de doigts ; la gomme mie de pain éclaircit une zone ou dessine des lumières sans abîmer le grain du papier.</p>\n<p>Vous ne savez pas encore comment les utiliser ? Lisez notre guide <a href=\"{{home}}materiel-dessin-pastel-papier-fixatif-estompes/\">papier, fixatif, estompes : le matériel pour le pastel</a>.</p>"
+  },
+  {
+   "slug": "carnet-dessin-pastel-a5",
+   "title": "Carnet de dessin pastel A5, papier à grain",
+   "gamme": "accessoires",
+   "image": "produit-carnet-a5",
+   "price": 14.9,
+   "sku": "PL-CAR-A5",
+   "count": "40",
+   "unit": "feuilles",
+   "badge": "",
+   "featured": 0,
+   "order": 7,
+   "excerpt": "40 feuilles de papier à grain 160 g/m² qui accroche les pigments, dans un carnet à reliure spirale.",
+   "features": [
+    "Format A5, reliure spirale",
+    "Papier à grain 160 g/m², 40 feuilles",
+    "Conçu pour accrocher le pastel sec",
+    "Feuilles qui se détachent proprement"
+   ],
+   "seo_title": "Carnet de dessin pastel A5, papier à grain | Pastel Life",
+   "seo_desc": "Carnet A5 de 40 feuilles à grain 160 g/m² pensé pour le crayon pastel sec : il accroche les pigments et supporte les superpositions.",
+   "content": "<p>Le <strong>carnet de dessin pastel A5</strong> contient 40 feuilles de papier à grain 160 g/m². Ce grain retient les pigments des crayons pastel et supporte plusieurs couches successives, ce qu'un papier lisse ne permet pas.</p>\n<p>Un format A5 facile à glisser dans un sac, pour dessiner partout. Pour tirer le meilleur du papier, lisez nos conseils <a href=\"{{home}}comment-dessiner-aux-crayons-pastel/\">pour dessiner aux crayons pastel</a>.</p>"
+  },
+  {
+   "slug": "taille-crayon-laiton",
+   "title": "Taille-crayon en laiton, lame fine",
+   "gamme": "accessoires",
+   "image": "produit-taille-crayon",
+   "price": 6.5,
+   "sku": "PL-TAI-01",
+   "count": "1",
+   "unit": "pièce",
+   "badge": "",
+   "featured": 0,
+   "order": 8,
+   "excerpt": "Une lame fine et précise, adaptée aux mines pastel tendres, qui évite de casser la pointe.",
+   "features": [
+    "Lame en acier fine et affûtée",
+    "Corps en laiton, durable",
+    "Adapté aux mines tendres"
+   ],
+   "seo_title": "Taille-crayon laiton pour crayons pastel | Pastel Life",
+   "seo_desc": "Taille-crayon en laiton à lame fine pour mines pastel tendres : une pointe nette sans casser le crayon. Livraison offerte dès 35 €.",
+   "content": "<p>Les mines pastel étant tendres, elles demandent un taille-crayon à <strong>lame fine et bien affûtée</strong>. Celui-ci, en laiton, taille sans écraser la pointe et sans la casser.</p>\n<p>Tournez le crayon plutôt que le taille-crayon, doucement, et gardez une pointe courte : c'est le geste que nous recommandons dans notre guide <a href=\"{{home}}comment-dessiner-aux-crayons-pastel/\">pour bien dessiner aux crayons pastel</a>.</p>"
+  }
+ ],
+ "posts": [
+  {
+   "slug": "pastel-sec-ou-pastel-gras",
+   "title": "Pastel sec ou pastel gras : quelles différences et que choisir ?",
+   "image": "article-pastel-sec-ou-gras",
+   "days": 2,
+   "excerpt": "Pastel sec ou pastel gras ? Texture, rendu, fixatif, papier : le comparatif pour choisir selon votre façon de dessiner.",
+   "seo_title": "Pastel sec ou pastel gras : différences et choix",
+   "seo_desc": "Pastel sec ou pastel gras ? Texture, rendu, papier, fixatif : le comparatif clair pour choisir le bon pastel selon votre niveau et votre style.",
+   "content": "<p>Dès que l'on s'intéresse au pastel, la même question revient : <strong>pastel sec ou pastel gras</strong> ? Les deux sont des pastels, mais ils ne se travaillent pas du tout de la même manière. Voici les différences, et surtout comment choisir.</p>\n<h2>Le pastel sec : un trait poudreux et lumineux</h2>\n<p>Le <strong>pastel sec</strong>, aussi appelé pastel tendre, est composé de pigments et d'une toute petite quantité de liant. C'est pour cela qu'il est poudreux, très pigmenté et d'une grande douceur. On le dépose en couches légères, on le fond au doigt ou à l'estompe, et on peut le superposer longtemps sur un papier à grain.</p>\n<p>Il existe en bâtons et en <strong>crayons pastel secs</strong>. Le crayon a l'avantage de la précision : on le taille, on dessine des détails fins, et on garde les doigts propres.</p>\n<h2>Le pastel gras : une matière crémeuse</h2>\n<p>Le <strong>pastel gras</strong> (ou pastel à l'huile) contient de la cire et de l'huile. Il est onctueux, couvrant, et ne s'efface pas facilement. Il se travaille plus comme une peinture : on étale, on gratte, on fond avec un chiffon ou un solvant. Il ne laisse pas de poussière mais se mélange moins subtilement.</p>\n<h2>Tableau comparatif</h2>\n<table><thead><tr><th>Critère</th><th>Pastel sec</th><th>Pastel gras</th></tr></thead><tbody>\n<tr><td>Texture</td><td>Poudreuse, veloutée</td><td>Crémeuse, cireuse</td></tr>\n<tr><td>Mélange</td><td>Doigt, estompe, très progressif</td><td>Chiffon, solvant, plus épais</td></tr>\n<tr><td>Superpositions</td><td>Nombreuses sur papier à grain</td><td>Limitées par la cire</td></tr>\n<tr><td>Fixatif</td><td>Recommandé</td><td>Vernis spécial</td></tr>\n<tr><td>Poussière</td><td>Oui, un peu</td><td>Non</td></tr>\n</tbody></table>\n<h2>Lequel choisir quand on débute ?</h2>\n<p>Si vous cherchez des <strong>dégradés doux</strong> et un rendu aérien, choisissez le pastel sec. Si vous préférez une matière couvrante et sans poussière, le pastel gras est un bon choix. Le crayon pastel sec offre un excellent compromis : la douceur du pastel et la maîtrise d'un crayon.</p>\n<h2>Notre conseil</h2>\n<p>Commencez par un petit coffret : le <a href=\"{{home}}boutique/coffret-decouverte-6-crayons-pastel/\">coffret Découverte de 6 crayons pastel</a> permet de tester le pastel sec sans investir. Ensuite, apprenez les gestes de base avec notre guide <a href=\"{{home}}comment-dessiner-aux-crayons-pastel/\">comment dessiner aux crayons pastel</a>.</p>"
+  },
+  {
+   "slug": "comment-dessiner-aux-crayons-pastel",
+   "title": "Comment dessiner aux crayons pastel : 5 techniques pour débuter",
+   "image": "article-dessiner-crayons-pastel",
+   "days": 9,
+   "excerpt": "Légèreté, superposition, estompage, dégradé et rehauts : 5 techniques simples pour dessiner aux crayons pastel dès aujourd'hui.",
+   "seo_title": "Dessiner aux crayons pastel : 5 techniques pour débuter",
+   "seo_desc": "Comment dessiner aux crayons pastel ? 5 techniques de base (superposition, estompage, dégradé, rehauts) et le matériel minimum pour bien démarrer.",
+   "content": "<p>Dessiner aux <strong>crayons pastel</strong> est plus simple qu'on ne l'imagine, à condition de connaître quelques gestes. Voici cinq techniques à essayer sur un carnet à grain, avec un coffret de base.</p>\n<h2>1. Poser la couleur en légèreté</h2>\n<p>Le pastel sec est très pigmenté : inutile d'appuyer. Tenez le crayon à plat, comme une brosse, et déposez la couleur en passes légères. Vous pourrez toujours ajouter une couche, alors qu'il est difficile d'en retirer une.</p>\n<h2>2. Superposer plusieurs couches</h2>\n<p>Sur un papier à grain, le pastel accroche et supporte plusieurs couches. Commencez par la teinte la plus claire, puis ajoutez les teintes plus foncées. Cette superposition crée de la profondeur et de nouvelles nuances, par exemple une Menthe Glacée sur de la Pêche Sorbet pour un vert tendre.</p>\n<h2>3. Estomper avec les doigts ou une estompe</h2>\n<p>L'estompage fond les traits et donne cet aspect velouté. Utilisez le doigt pour les grandes zones, l'<a href=\"{{home}}boutique/set-estompes-et-gomme/\">estompe</a> pour les détails et un coton-tige pour les angles. Estompez toujours du clair vers le foncé pour ne pas salir les teintes claires.</p>\n<h2>4. Réaliser un dégradé</h2>\n<p>Posez deux teintes côte à côte, puis fondez la zone de contact en petits cercles. Pour une méthode détaillée, lisez <a href=\"{{home}}reussir-un-degrade-aux-crayons-pastel/\">comment réussir un dégradé aux crayons pastel</a>.</p>\n<h2>5. Ajouter des rehauts de lumière</h2>\n<p>À la fin, éclaircissez certaines zones avec la gomme mie de pain, ou posez un trait de Pêche Sorbet pour faire naître une lumière. Ces petits rehauts donnent du relief à tout le dessin.</p>\n<h2>Le matériel minimum</h2>\n<ul><li>Un coffret de crayons pastel, par exemple le <a href=\"{{home}}boutique/coffret-decouverte-6-crayons-pastel/\">coffret Découverte</a></li><li>Un papier à grain, comme notre <a href=\"{{home}}boutique/carnet-dessin-pastel-a5/\">carnet A5</a></li><li>Une estompe et une gomme mie de pain</li><li>Un fixatif pour protéger le dessin terminé</li></ul>\n<h2>Les erreurs à éviter</h2>\n<p>Ne pas trop appuyer dès la première couche, ne pas estomper avec un doigt gras, et ne pas utiliser un papier lisse. Pour tout savoir sur le papier et le fixatif, consultez notre guide du <a href=\"{{home}}materiel-dessin-pastel-papier-fixatif-estompes/\">matériel de dessin pastel</a>.</p>"
+  },
+  {
+   "slug": "quel-coffret-de-crayons-pastel-choisir",
+   "title": "Quel coffret de crayons pastel choisir : 6, 12, 24 ou 48 couleurs ?",
+   "image": "article-choisir-coffret",
+   "days": 16,
+   "excerpt": "6, 12, 24 ou 48 crayons pastel ? Notre guide compare les coffrets selon votre niveau, votre budget et votre façon de dessiner.",
+   "seo_title": "Quel coffret de crayons pastel choisir ? 6 à 48 couleurs",
+   "seo_desc": "6, 12, 24 ou 48 crayons pastel : comparatif des coffrets selon votre niveau, votre budget et vos projets. Le guide pour choisir sans se tromper.",
+   "content": "<p>Face à un rayon de crayons pastel, on se demande vite : <strong>combien de couleurs faut-il</strong> ? Plus n'est pas toujours mieux. Voici comment choisir un coffret selon ce que vous voulez dessiner.</p>\n<h2>Ce que change le nombre de crayons</h2>\n<p>Dans la gamme Pastel Life, nous proposons six teintes. Un coffret plus grand n'ajoute pas de nouvelles couleurs : il décline chaque teinte en <strong>plusieurs intensités</strong>. Plus d'intensités signifie des dégradés plus continus, sans devoir mélanger beaucoup de couches.</p>\n<h2>Comparatif des coffrets</h2>\n<table><thead><tr><th>Coffret</th><th>Intensités par teinte</th><th>Pour qui ?</th><th>Prix</th></tr></thead><tbody>\n<tr><td><a href=\"{{home}}boutique/coffret-decouverte-6-crayons-pastel/\">Découverte, 6 crayons</a></td><td>1</td><td>Débutants, cadeau</td><td>12,90 €</td></tr>\n<tr><td><a href=\"{{home}}boutique/coffret-douceur-12-crayons-pastel/\">Douceur, 12 crayons</a></td><td>2</td><td>Débutants qui progressent</td><td>19,90 €</td></tr>\n<tr><td><a href=\"{{home}}boutique/boite-atelier-24-crayons-pastel/\">Atelier, 24 crayons</a></td><td>4</td><td>Passionnés, illustration</td><td>34,00 €</td></tr>\n<tr><td><a href=\"{{home}}boutique/edition-studio-48-crayons-pastel/\">Studio, 48 crayons</a></td><td>8</td><td>Artistes, travail du détail</td><td>59,00 €</td></tr>\n</tbody></table>\n<h2>Débuter : 6 ou 12 crayons</h2>\n<p>Pour commencer, 6 à 12 crayons suffisent largement. Avec peu de couleurs, on apprend à les mélanger, ce qui forme l'œil. Le coffret de 12 apporte en plus des nuances claires, très utiles pour les ciels et les carnations.</p>\n<h2>Progresser : 24 crayons</h2>\n<p>La boîte de 24 est le meilleur rapport polyvalence-prix : quatre intensités par teinte permettent de réaliser des dégradés presque sans estompage. C'est notre best-seller.</p>\n<h2>Aller plus loin : 48 crayons</h2>\n<p>Le coffret de 48 s'adresse à celles et ceux qui travaillent le détail et les nuances subtiles. Son coffret en bois en fait aussi un très beau cadeau.</p>\n<h2>Et le reste du matériel ?</h2>\n<p>Quel que soit le coffret, prévoyez un papier à grain et une estompe : lisez notre guide du <a href=\"{{home}}materiel-dessin-pastel-papier-fixatif-estompes/\">matériel pour dessiner au pastel</a>. Toutes les teintes sont présentées sur la page <a href=\"{{home}}la-collection/\">la collection</a>.</p>"
+  },
+  {
+   "slug": "reussir-un-degrade-aux-crayons-pastel",
+   "title": "Réussir un dégradé aux crayons pastel, pas à pas",
+   "image": "article-degrade-pastel",
+   "days": 24,
+   "excerpt": "Un dégradé aux crayons pastel en 5 étapes : choix des teintes, pression, superposition, estompage et finitions.",
+   "seo_title": "Réussir un dégradé aux crayons pastel : tutoriel",
+   "seo_desc": "Tutoriel pour réussir un dégradé aux crayons pastel en 5 étapes : bon papier, teintes, pression, estompage et finitions. Résultat doux garanti.",
+   "content": "<p>Le <strong>dégradé</strong> est la technique la plus satisfaisante du pastel : une couleur qui glisse doucement vers une autre, sans ligne visible. Voici la méthode pour le réussir avec des crayons pastel.</p>\n<h2>1. Choisir deux ou trois teintes voisines</h2>\n<p>Pour un premier dégradé, prenez des couleurs proches dans la palette : Rose Framboise, Saumon Doux et Pêche Sorbet fonctionnent à merveille. Vous pouvez aussi essayer Pistache vers Menthe Glacée. La page <a href=\"{{home}}la-collection/\">collection</a> détaille les accords de teintes.</p>\n<h2>2. Préparer le papier</h2>\n<p>Choisissez un papier à grain, comme le <a href=\"{{home}}boutique/carnet-dessin-pastel-a5/\">carnet A5</a>. Le grain accroche les pigments et permet de superposer plusieurs couches sans que la matière glisse.</p>\n<h2>3. Poser les couleurs en bandes</h2>\n<p>Dessinez des bandes côte à côte, en couches légères, avec un léger chevauchement entre chaque teinte. Ne cherchez pas à fondre tout de suite : le dégradé se construit à l'étape suivante.</p>\n<h2>4. Estomper les zones de contact</h2>\n<p>Avec une estompe ou un doigt propre, fondez la zone où les teintes se rencontrent, en petits cercles, du plus clair vers le plus foncé. Revenez avec le crayon pour redonner de la couleur là où elle s'est trop effacée, puis estompez de nouveau.</p>\n<h2>5. Finaliser</h2>\n<p>Éclaircissez un point lumineux avec la gomme mie de pain, puis protégez le dessin avec un voile de fixatif. Plus on dispose d'intensités par teinte, plus le dégradé est naturel : c'est le principe de la <a href=\"{{home}}boutique/boite-atelier-24-crayons-pastel/\">boîte Atelier de 24 crayons</a>.</p>\n<h2>Pour aller plus loin</h2>\n<p>Retrouvez toutes les bases dans notre article <a href=\"{{home}}comment-dessiner-aux-crayons-pastel/\">comment dessiner aux crayons pastel</a>.</p>"
+  },
+  {
+   "slug": "materiel-dessin-pastel-papier-fixatif-estompes",
+   "title": "Papier, fixatif, estompes : le matériel pour dessiner au pastel",
+   "image": "article-materiel-pastel",
+   "days": 33,
+   "excerpt": "Quel papier, quel fixatif, quelles estompes ? Le matériel essentiel pour dessiner au pastel sec, sans se ruiner.",
+   "seo_title": "Matériel dessin pastel : papier, fixatif, estompes",
+   "seo_desc": "Quel matériel pour dessiner au pastel ? Papier à grain, fixatif, estompes, gomme mie de pain, taille-crayon : la liste essentielle pour bien débuter.",
+   "content": "<p>Les crayons pastel sont la star, mais le reste du <strong>matériel de dessin pastel</strong> compte autant. Voici ce qu'il faut vraiment pour obtenir un beau résultat.</p>\n<h2>Le papier à grain</h2>\n<p>C'est l'élément le plus important. Le papier doit avoir un <strong>grain</strong> qui retient les pigments, et un grammage d'au moins 160 g/m². Un papier lisse ne garde pas la poudre de pastel et empêche les superpositions. Notre <a href=\"{{home}}boutique/carnet-dessin-pastel-a5/\">carnet A5 à grain</a> a été conçu dans cet esprit.</p>\n<h2>Les estompes</h2>\n<p>Une estompe est un bâton de papier roulé qui fond les couleurs. Elle permet d'estomper avec précision, là où le doigt est trop large. Prévoyez trois tailles : fine pour les détails, moyenne et large pour les aplats. Le <a href=\"{{home}}boutique/set-estompes-et-gomme/\">set estompes et gomme</a> réunit tout cela.</p>\n<h2>La gomme mie de pain</h2>\n<p>Pétrissable et douce, elle retire le pastel sans abîmer le papier. On s'en sert aussi pour créer des lumières en « dessinant » avec la gomme.</p>\n<h2>Le fixatif</h2>\n<p>Le fixatif protège le dessin des frottements. Vaporisez en couches fines, à environ 30 cm, dans un endroit aéré. Attention : il peut atténuer légèrement les couleurs claires. Testez sur une chute de papier avant de fixer un dessin important.</p>\n<h2>Le taille-crayon</h2>\n<p>Les mines tendres demandent une lame fine. Notre <a href=\"{{home}}boutique/taille-crayon-laiton/\">taille-crayon en laiton</a> taille sans casser la pointe.</p>\n<h2>Un kit de départ complet</h2>\n<p>Un <a href=\"{{home}}boutique/coffret-decouverte-6-crayons-pastel/\">coffret Découverte</a>, un carnet à grain et un set d'estompes : vous avez tout pour commencer. Vous n'avez plus qu'à suivre nos <a href=\"{{home}}comment-dessiner-aux-crayons-pastel/\">5 techniques pour dessiner aux crayons pastel</a>.</p>"
+  }
+ ],
+ "media": {
+  "article-choisir-coffret": {
+   "file": "assets/img/article-choisir-coffret.webp",
+   "alt": "Quel coffret de crayons pastel choisir : 6, 12, 24 ou 48 couleurs ? : image de l'article",
+   "title": "article-choisir-coffret"
+  },
+  "article-degrade-pastel": {
+   "file": "assets/img/article-degrade-pastel.webp",
+   "alt": "Réussir un dégradé aux crayons pastel, pas à pas : image de l'article",
+   "title": "article-degrade-pastel"
+  },
+  "article-dessiner-crayons-pastel": {
+   "file": "assets/img/article-dessiner-crayons-pastel.webp",
+   "alt": "Comment dessiner aux crayons pastel : 5 techniques pour débuter : image de l'article",
+   "title": "article-dessiner-crayons-pastel"
+  },
+  "article-materiel-pastel": {
+   "file": "assets/img/article-materiel-pastel.webp",
+   "alt": "Papier, fixatif, estompes : le matériel pour dessiner au pastel : image de l'article",
+   "title": "article-materiel-pastel"
+  },
+  "article-pastel-sec-ou-gras": {
+   "file": "assets/img/article-pastel-sec-ou-gras.webp",
+   "alt": "Pastel sec ou pastel gras : quelles différences et que choisir ? : image de l'article",
+   "title": "article-pastel-sec-ou-gras"
+  },
+  "og-default": {
+   "file": "assets/img/og-default.webp",
+   "alt": "Pastel Life : crayons pastel doux et pigmentés",
+   "title": "og-default"
+  },
+  "produit-boite-atelier": {
+   "file": "assets/img/produit-boite-atelier.webp",
+   "alt": "Boîte Atelier, 24 crayons pastel, photo du produit Pastel Life",
+   "title": "produit-boite-atelier"
+  },
+  "produit-carnet-a5": {
+   "file": "assets/img/produit-carnet-a5.webp",
+   "alt": "Carnet de dessin pastel A5, papier à grain, photo du produit Pastel Life",
+   "title": "produit-carnet-a5"
+  },
+  "produit-coffret-decouverte": {
+   "file": "assets/img/produit-coffret-decouverte.webp",
+   "alt": "Coffret Découverte, 6 crayons pastel, photo du produit Pastel Life",
+   "title": "produit-coffret-decouverte"
+  },
+  "produit-coffret-douceur": {
+   "file": "assets/img/produit-coffret-douceur.webp",
+   "alt": "Coffret Douceur, 12 crayons pastel, photo du produit Pastel Life",
+   "title": "produit-coffret-douceur"
+  },
+  "produit-crayon-unite": {
+   "file": "assets/img/produit-crayon-unite.webp",
+   "alt": "Crayon pastel à l'unité, photo du produit Pastel Life",
+   "title": "produit-crayon-unite"
+  },
+  "produit-edition-studio": {
+   "file": "assets/img/produit-edition-studio.webp",
+   "alt": "Édition Studio, 48 crayons pastel en coffret bois, photo du produit Pastel Life",
+   "title": "produit-edition-studio"
+  },
+  "produit-estompes-gomme": {
+   "file": "assets/img/produit-estompes-gomme.webp",
+   "alt": "Set d'estompes et gomme mie de pain, photo du produit Pastel Life",
+   "title": "produit-estompes-gomme"
+  },
+  "produit-taille-crayon": {
+   "file": "assets/img/produit-taille-crayon.webp",
+   "alt": "Taille-crayon en laiton, lame fine, photo du produit Pastel Life",
+   "title": "produit-taille-crayon"
+  },
+  "site-icon": {
+   "file": "assets/img/site-icon.png",
+   "alt": "Logo Pastel Life : six pastilles de couleur pastel",
+   "title": "site-icon"
+  },
+  "carnet-nuancier-pastel-arcs-de-couleur": {
+   "file": "assets/photos/carnet-nuancier-pastel-arcs-de-couleur.webp",
+   "alt": "Carnet ouvert avec six arcs de pastel et deux crayons posés dessus",
+   "title": "carnet-nuancier-pastel-arcs-de-couleur"
+  },
+  "coffret-crayons-pastel-decouverte": {
+   "file": "assets/photos/coffret-crayons-pastel-decouverte.webp",
+   "alt": "Coffret Découverte : six crayons pastel rangés dans une boîte crème",
+   "title": "coffret-crayons-pastel-decouverte"
+  },
+  "crayon-pastel-unite-lavande-brume": {
+   "file": "assets/photos/crayon-pastel-unite-lavande-brume.webp",
+   "alt": "Crayon pastel lavande brume à l'unité, vu de dessus sur fond crème",
+   "title": "crayon-pastel-unite-lavande-brume"
+  },
+  "crayon-pastel-unite-menthe-glacee": {
+   "file": "assets/photos/crayon-pastel-unite-menthe-glacee.webp",
+   "alt": "Crayon pastel menthe glacée à l'unité, vu de dessus sur fond crème",
+   "title": "crayon-pastel-unite-menthe-glacee"
+  },
+  "crayon-pastel-unite-peche-sorbet": {
+   "file": "assets/photos/crayon-pastel-unite-peche-sorbet.webp",
+   "alt": "Crayon pastel pêche sorbet à l'unité, vu de dessus sur fond crème",
+   "title": "crayon-pastel-unite-peche-sorbet"
+  },
+  "crayon-pastel-unite-pistache": {
+   "file": "assets/photos/crayon-pastel-unite-pistache.webp",
+   "alt": "Crayon pastel pistache à l'unité, vu de dessus sur fond crème",
+   "title": "crayon-pastel-unite-pistache"
+  },
+  "crayon-pastel-unite-rose-framboise": {
+   "file": "assets/photos/crayon-pastel-unite-rose-framboise.webp",
+   "alt": "Crayon pastel rose framboise à l'unité, vu de dessus sur fond crème",
+   "title": "crayon-pastel-unite-rose-framboise"
+  },
+  "crayon-pastel-unite-saumon-doux": {
+   "file": "assets/photos/crayon-pastel-unite-saumon-doux.webp",
+   "alt": "Crayon pastel saumon doux à l'unité, vu de dessus sur fond crème",
+   "title": "crayon-pastel-unite-saumon-doux"
+  },
+  "crayons-pastel-alignes": {
+   "file": "assets/photos/crayons-pastel-alignes.webp",
+   "alt": "Six crayons pastel alignés sur un papier de couleur, de la pointe de rose à la pointe de lavande",
+   "title": "crayons-pastel-alignes"
+  },
+  "crayons-pastel-escalier-6-teintes": {
+   "file": "assets/photos/crayons-pastel-escalier-6-teintes.webp",
+   "alt": "Six crayons pastel posés sur des marches de plâtre",
+   "title": "crayons-pastel-escalier-6-teintes"
+  },
+  "crayons-pastel-etoile-6-couleurs": {
+   "file": "assets/photos/crayons-pastel-etoile-6-couleurs.webp",
+   "alt": "Six crayons pastel disposés en étoile, pointes au centre, sur un papier crème",
+   "title": "crayons-pastel-etoile-6-couleurs"
+  },
+  "crayons-pastel-eventail-6-teintes": {
+   "file": "assets/photos/crayons-pastel-eventail-6-teintes.webp",
+   "alt": "Éventail de six crayons pastel : rose framboise, saumon doux, pêche sorbet, pistache, menthe glacée et lavande brume",
+   "title": "crayons-pastel-eventail-6-teintes"
+  },
+  "crayons-pastel-pot-ceramique": {
+   "file": "assets/photos/crayons-pastel-pot-ceramique.webp",
+   "alt": "Six crayons pastel dans un pot en céramique beige",
+   "title": "crayons-pastel-pot-ceramique"
+  },
+  "crayons-pastel-sur-lin-nuancier": {
+   "file": "assets/photos/crayons-pastel-sur-lin-nuancier.webp",
+   "alt": "Six crayons pastel sur un tissu de lin, avec un nuancier de six couleurs",
+   "title": "crayons-pastel-sur-lin-nuancier"
+  },
+  "mines-crayons-pastel-detail": {
+   "file": "assets/photos/mines-crayons-pastel-detail.webp",
+   "alt": "Gros plan sur les mines de six crayons pastel : rose, saumon, pêche, pistache, menthe et lavande",
+   "title": "mines-crayons-pastel-detail"
+  },
+  "pigments-copeaux-crayon-pastel-lavande-brume": {
+   "file": "assets/photos/pigments-copeaux-crayon-pastel-lavande-brume.webp",
+   "alt": "Crayon pastel lavande brume, copeaux de cèdre et pigment écrasé sur papier à grain",
+   "title": "pigments-copeaux-crayon-pastel-lavande-brume"
+  },
+  "pigments-copeaux-crayon-pastel-menthe-glacee": {
+   "file": "assets/photos/pigments-copeaux-crayon-pastel-menthe-glacee.webp",
+   "alt": "Crayon pastel menthe glacée, copeaux de cèdre et pigment écrasé sur papier à grain",
+   "title": "pigments-copeaux-crayon-pastel-menthe-glacee"
+  },
+  "pigments-copeaux-crayon-pastel-peche-sorbet": {
+   "file": "assets/photos/pigments-copeaux-crayon-pastel-peche-sorbet.webp",
+   "alt": "Crayon pastel pêche sorbet, copeaux de cèdre et pigment écrasé sur papier à grain",
+   "title": "pigments-copeaux-crayon-pastel-peche-sorbet"
+  },
+  "pigments-copeaux-crayon-pastel-pistache": {
+   "file": "assets/photos/pigments-copeaux-crayon-pastel-pistache.webp",
+   "alt": "Crayon pastel pistache, copeaux de cèdre et pigment écrasé sur papier à grain",
+   "title": "pigments-copeaux-crayon-pastel-pistache"
+  },
+  "pigments-copeaux-crayon-pastel-rose-framboise": {
+   "file": "assets/photos/pigments-copeaux-crayon-pastel-rose-framboise.webp",
+   "alt": "Crayon pastel rose framboise, copeaux de cèdre et pigment écrasé sur papier à grain",
+   "title": "pigments-copeaux-crayon-pastel-rose-framboise"
+  },
+  "pigments-copeaux-crayon-pastel-saumon-doux": {
+   "file": "assets/photos/pigments-copeaux-crayon-pastel-saumon-doux.webp",
+   "alt": "Crayon pastel saumon doux, copeaux de cèdre et pigment écrasé sur papier à grain",
+   "title": "pigments-copeaux-crayon-pastel-saumon-doux"
+  },
+  "traits-pastel-pistache-menthe-lavande": {
+   "file": "assets/photos/traits-pastel-pistache-menthe-lavande.webp",
+   "alt": "Trois crayons pastel, pistache, menthe et lavande, et leurs traits mêlés sur papier à grain",
+   "title": "traits-pastel-pistache-menthe-lavande"
+  },
+  "traits-pastel-rose-saumon": {
+   "file": "assets/photos/traits-pastel-rose-saumon.webp",
+   "alt": "Pointes de deux crayons pastel, rose et saumon, avec leur cèdre taillé et leurs traits sur papier",
+   "title": "traits-pastel-rose-saumon"
+  }
+ },
+ "menu": [
+  {
+   "slug": "la-collection",
+   "label": "La collection"
+  },
+  {
+   "slug": "boutique",
+   "label": "Boutique"
+  },
+  {
+   "slug": "savoir-faire",
+   "label": "Savoir-faire"
+  },
+  {
+   "slug": "journal",
+   "label": "Journal"
+  },
+  {
+   "slug": "contact",
+   "label": "Contact"
+  }
+ ]
+}
