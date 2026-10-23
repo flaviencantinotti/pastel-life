@@ -2,7 +2,7 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://flaviencantinotti.github.io/PasteLife/wp-sitemap.xml
+Sitemap: https://flaviencantinotti.github.io/pastel-life/wp-sitemap.xml
 Disallow: /?s=
 Disallow: /*?s=
 Disallow: /search/
