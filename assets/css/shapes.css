@@ -34,7 +34,8 @@
 	margin-left: var(--pl-a-ml, 0);
 	background-image: var(--pl-a-img, none);
 	background-position: var(--pl-a-bgp, right top);
-	translate: 0 var(--pl-ya, 0px);
+	translate: var(--pl-xa, 0px) var(--pl-ya, 0px);
+	transform: rotate(var(--pl-ra, 0deg));
 }
 
 .pl-formes::after {
@@ -47,7 +48,8 @@
 	margin-left: var(--pl-b-ml, 0);
 	background-image: var(--pl-b-img, none);
 	background-position: var(--pl-b-bgp, left bottom);
-	translate: 0 var(--pl-yb, 0px);
+	translate: var(--pl-xb, 0px) var(--pl-yb, 0px);
+	transform: rotate(var(--pl-rb, 0deg));
 }
 
 .pl-a-gribouillis-rose {

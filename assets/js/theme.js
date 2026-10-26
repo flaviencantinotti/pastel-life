@@ -36,6 +36,15 @@
 	var article = doc.querySelector( '.pl-article .pl-prose' );
 	var imageProgrammee = false;
 
+	var proprietesForme = [
+		{ nom: '--pl-ya', unite: 'px' },
+		{ nom: '--pl-xa', unite: 'px' },
+		{ nom: '--pl-ra', unite: 'deg' },
+		{ nom: '--pl-yb', unite: 'px' },
+		{ nom: '--pl-xb', unite: 'px' },
+		{ nom: '--pl-rb', unite: 'deg' }
+	];
+
 	var selecteurApparition = [
 		'.pl-carte',
 		'.elementor-widget-heading',
@@ -194,8 +203,9 @@
 			return;
 		}
 
-		var borner = function ( valeur ) {
-			return Math.max( -90, Math.min( 90, valeur ) );
+		var intensite = window.innerWidth < 768 ? 0.6 : 1;
+		var borner = function ( valeur, limite ) {
+			return Math.max( -limite, Math.min( limite, valeur ) );
 		};
 		formes.forEach( function ( forme ) {
 			var rectangle = forme.element.getBoundingClientRect();
@@ -203,8 +213,14 @@
 				return;
 			}
 			var ecart = rectangle.top + rectangle.height / 2 - hauteurFenetre / 2;
-			forme.cibleA = borner( ecart * -0.12 );
-			forme.cibleB = borner( ecart * 0.09 );
+			forme.cible = [
+				borner( ecart * -0.34 * intensite, 240 * intensite ),
+				borner( ecart * 0.1 * intensite, 70 * intensite ),
+				borner( ecart * 0.03, 22 ),
+				borner( ecart * 0.26 * intensite, 190 * intensite ),
+				borner( ecart * -0.08 * intensite, 55 * intensite ),
+				borner( ecart * -0.025, 18 )
+			];
 		} );
 		demarrerAdoucissement();
 	}
@@ -213,15 +229,14 @@
 	function adoucir() {
 		var enMouvement = false;
 		formes.forEach( function ( forme ) {
-			var ecartA = forme.cibleA - forme.decalageA;
-			var ecartB = forme.cibleB - forme.decalageB;
-			if ( Math.abs( ecartA ) > 0.15 || Math.abs( ecartB ) > 0.15 ) {
-				forme.decalageA += ecartA * 0.09;
-				forme.decalageB += ecartB * 0.09;
-				forme.element.style.setProperty( '--pl-ya', forme.decalageA.toFixed( 2 ) + 'px' );
-				forme.element.style.setProperty( '--pl-yb', forme.decalageB.toFixed( 2 ) + 'px' );
-				enMouvement = true;
-			}
+			proprietesForme.forEach( function ( propriete, indice ) {
+				var ecart = forme.cible[ indice ] - forme.courant[ indice ];
+				if ( Math.abs( ecart ) > 0.1 ) {
+					forme.courant[ indice ] += ecart * 0.1;
+					forme.element.style.setProperty( propriete.nom, forme.courant[ indice ].toFixed( 2 ) + propriete.unite );
+					enMouvement = true;
+				}
+			} );
 		} );
 		if ( enMouvement ) {
 			window.requestAnimationFrame( adoucir );
@@ -245,7 +260,7 @@
 
 	function initialiser() {
 		formes = Array.prototype.slice.call( doc.querySelectorAll( '.pl-formes' ) ).map( function ( element ) {
-			return { element: element, decalageA: 0, decalageB: 0, cibleA: 0, cibleB: 0 };
+			return { element: element, courant: [ 0, 0, 0, 0, 0, 0 ], cible: [ 0, 0, 0, 0, 0, 0 ] };
 		} );
 		preparerApparitions();
 		preparerCompteurs();
